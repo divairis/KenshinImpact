@@ -1,0 +1,190 @@
+
+@font-face 
+{
+  font-family: 'Genshin';
+  src: url(../assets/zh-cn.ttf) format('truetype');
+}
+
+body{
+  font-family: "Genshin";
+
+}
+
+.nav-link{
+  color: #4d3f10 !important;
+}
+
+footer{
+  color: #4d3f10;
+}
+
+.navbar .logo img {
+  width: 50px;
+}
+
+#home-section .mask {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+#gallery-section .mask {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+#about-section .mask {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.button {
+  border-style: none;
+  background-color: rgb(154, 211, 195);
+  color: white;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #df8d03;
+}
+
+.bottom{
+  background-color: #000000;
+}
+
+
+#characters-section .mask {
+  padding-top: 100px;
+  padding-bottom: 230px;
+}
+
+.flip-box-inner-paimon {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box-inner-kaeya {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+@media screen and (max-width: 727px) {
+  .flip-box-inner-kaeya {
+    top: 300px;
+  }
+}
+
+.flip-box-inner-jean {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  top: 500px;
+}
+
+.flip-box-inner-diluc {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  top: 500px;
+}
+
+@media screen and (max-width: 727px) {
+  .flip-box-inner-diluc {
+    top: 800px;
+  }
+}
+
+.flip-box-inner-razor {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  top: 1000px;
+}
+
+.flip-box-paimon:hover .flip-box-inner-paimon {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.flip-box-kaeya:hover .flip-box-inner-kaeya {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.flip-box-jean:hover .flip-box-inner-jean {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.flip-box-diluc:hover .flip-box-inner-diluc {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.flip-box-razor:hover .flip-box-inner-razor {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-back {
+  transform: rotateY(180deg);
+}
+
+.pic1 img{
+  transition: transform .2s;
+}
+
+.pic1:hover img{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.pic2 img{
+  transition: transform .2s;
+}
+
+.pic2:hover img{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.pic3 img{
+  transition: transform .2s;
+}
+
+.pic3:hover img{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.modal {
+  color: #4d3f10 !important;
+  
+}
